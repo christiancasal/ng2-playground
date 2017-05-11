@@ -1,0 +1,8 @@
+<form #f="ngForm" (ngSubmit)="yesStill()" novalidate>
+<div>
+  <input name="firstName" type="text" placeholder="pleeasssse" value="{{booo}}" ngModel #firstName="ngModel" ng-model-instant autocomplete="off"/>
+  <button>submit</button>
+  {{booo}}
+</div>
+</form>
+<p>{{firstName.value}}</p>

@@ -4,10 +4,18 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { SomeThingComponent } from './some-thing/some-thing.component';
+import { SomeBoxComponent } from './some-box/some-box.component';
+import { TitleBoxComponent } from './title-box/title-box.component';
+import { LetterResultComponent } from './letter-result/letter-result.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SomeThingComponent,
+    SomeBoxComponent,
+    TitleBoxComponent,
+    LetterResultComponent
   ],
   imports: [
     BrowserModule,
