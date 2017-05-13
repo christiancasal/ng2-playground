@@ -1,7 +1,5 @@
 export class Result {
+    data: string;
     constructor(
-        public letter: string,
-        public digit: number,
-        public isLetter: boolean
-    ){}
+    ) {}
 }
