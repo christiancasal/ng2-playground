@@ -44,8 +44,12 @@ import { DashboardComponent } from './dashboard/dashboard.component';
       component: DashboardComponent
     },
     {
-      path:'',
-      redirectTo: '/dashoboard',
+      path: 'detail/:id',
+      component: HeroDetailComponent
+    },
+    {
+      path:' ',
+      redirectTo: '/dashboard',
       pathMatch: 'full'
     }
     ]),
